@@ -1,0 +1,34 @@
+.App .aboutMeContainer {
+
+}
+
+.aboutMeContainer .languageContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-bottom: 16px;
+} 
+
+.aboutMeContainer .frameworkContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.languageContainer .cardContainer {
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px;
+}
+
+.frameworkContainer .cardContainer {
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px;
+}
+
+.cardContainer .cardImage {
+    height: 96px;
+}

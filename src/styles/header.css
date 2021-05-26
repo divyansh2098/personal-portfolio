@@ -1,0 +1,21 @@
+.App .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0px;
+    border-bottom: 1px solid;
+}
+
+.headerContainer .nameHolder {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.icons .githubIcon {
+    height: 28px;
+    margin-right: 16px;
+}
+
+.icons .mediumIcon {
+    height: 28px;
+}

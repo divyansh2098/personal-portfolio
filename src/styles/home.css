@@ -1,0 +1,16 @@
+.App .aboutMeContainer {
+    margin-top: 40px;
+    padding: 24px 0px;
+}
+
+.aboutMe p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.aboutMeContainer .profileImage {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
