@@ -17,6 +17,7 @@ export const aboutMeVariant = {
         x: '-100vw',
         transition: {
             type: 'spring',
+            duration: 1
         }
     }
 }
@@ -75,5 +76,77 @@ export const fadeIn = {
     },
     to: {
         opacity:1
+    }
+}
+
+export const modal = {
+    from: {
+        opacity: 0
+    },
+    to: {
+        opacity: 1,
+        transition: {
+            duration: 1,
+        }
+    },
+    exit: {
+        opacity: 0,
+        transition: {
+            duration: 1,
+        }
+    }
+}
+
+export const exitAbout = {
+    exit: {
+        y: '-100vh',
+        transition: {
+            duration: 0.5
+        }
+    }
+}
+
+export const dialogContent = {
+    from: {
+        scale: 0
+    },
+    to: {
+        scale: 1,
+        transition: {
+            duration: 0.5
+        }
+    },
+    exit: {
+        scale: 0,
+        transition: {
+            duration: 0.5
+        }
+    }
+}
+
+export const contact = {
+    from: {
+        scale: 0
+    },
+    to: {
+        scale: 1,
+        transition: {
+            duration: 0.3
+        }
+    },
+    exit: {
+        y: '100vh',
+        transition: {
+            duration: 0.3 
+        }
+    }
+}
+
+export const textGlow = {
+    to: {
+        textShadow: '1px 1px 12px',
+        transition: {
+            duration: 0.4
+        }
     }
 }

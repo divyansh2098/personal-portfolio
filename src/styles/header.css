@@ -11,6 +11,10 @@
     line-height: 40px;
 }
 
+.headerContainer .nameHolder a {
+    color: white;
+}
+
 .icons .githubIcon {
     height: 28px;
     margin-right: 16px;

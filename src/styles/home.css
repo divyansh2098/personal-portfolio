@@ -1,16 +1,51 @@
-.App .aboutMeContainer {
+.App .homeContainer {
     margin-top: 40px;
     padding: 24px 0px;
 }
 
 .aboutMe p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 32px;
 }
 
-.aboutMeContainer .profileImage {
+.homeContainer .profileImage {
     height: 300px;
     width: 300px;
     object-fit: cover;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.homeContainer .actionContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.actionContainer .aboutCta {
+    padding: 24px 36px;
+    background: none;
+    border: none;
+    box-shadow: 1px 1px 3px white;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: #fce043;
+    background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+    cursor: pointer;
+}
+
+.actionContainer .contactCta {
+    padding: 24px 36px;
+    background: none;
+    border: none;
+    box-shadow: 1px 1px 3px white;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    cursor: pointer;
+}
+
+.contactCta a, .aboutCta a {
+    color: rgba(0,0,0,0.87);
 }

@@ -1,0 +1,9 @@
+.App .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+
+.contactContainer img {
+    height: 256px;
+}
